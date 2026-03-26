@@ -127,13 +127,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Admin.c" />
+    <ClCompile Include="Doctor.c" />
     <ClCompile Include="Init.cpp" />
     <ClCompile Include="Login_Register.cpp" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="Patient.c" />
+    <ClCompile Include="Typedef.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Admin.h" />
+    <ClInclude Include="Doctor.h" />
     <ClInclude Include="Init.h" />
     <ClInclude Include="Login_Register.h" />
+    <ClInclude Include="Patient.h" />
     <ClInclude Include="Typedef.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

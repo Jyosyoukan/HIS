@@ -24,6 +24,18 @@
     <ClCompile Include="Login_Register.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Doctor.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Patient.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Admin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Typedef.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Init.h">
@@ -33,6 +45,15 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Typedef.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Doctor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Admin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Patient.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

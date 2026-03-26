@@ -6,7 +6,6 @@
 宏常量在这里定义
 获取日期
 */
-
 #pragma once
 #include"Init.cpp"
 int Initsystem(void);
