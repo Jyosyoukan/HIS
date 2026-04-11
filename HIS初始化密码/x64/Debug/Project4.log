@@ -1,0 +1,29 @@
+﻿  Init.c
+C:\Users\jlu\Desktop\Project4\Init.c(75,34): warning C4244: “初始化”: 从“time_t”转换到“int”，可能丢失数据
+C:\Users\jlu\Desktop\Project4\Init.c(310,21): warning C4473: “fprintf”: 没有为格式字符串传递足够的参数
+      C:\Users\jlu\Desktop\Project4\Init.c(310,21):
+      占位符和其参数预计 20 可变参数，但提供的却是 19 参数
+      C:\Users\jlu\Desktop\Project4\Init.c(310,21):
+      缺失的可变参数 20 为格式字符串“%d”所需
+  
+C:\Users\jlu\Desktop\Project4\Init.c(412,25): warning C4477: “fscanf_s”: 格式字符串“%c”需要类型“unsigned int”的参数，但可变参数 6 拥有了类型“int *”
+      C:\Users\jlu\Desktop\Project4\Init.c(412,25):
+      此参数用作缓冲区大小
+  
+C:\Users\jlu\Desktop\Project4\Init.c(412,25): warning C4477: “fscanf_s”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 14 拥有了类型“char *”
+      C:\Users\jlu\Desktop\Project4\Init.c(412,25):
+      请考虑在格式字符串中使用“%hhd”
+  
+C:\Users\jlu\Desktop\Project4\Init.c(412,25): warning C4477: “fscanf_s”: 格式字符串“%[^\n]”需要类型“char *”的参数，但可变参数 15 拥有了类型“unsigned int”
+      C:\Users\jlu\Desktop\Project4\Init.c(412,25):
+      此参数由转换说明符使用
+  
+C:\Users\jlu\Desktop\Project4\Init.c(412,25): warning C4473: “fscanf_s”: 没有为格式字符串传递足够的参数
+      C:\Users\jlu\Desktop\Project4\Init.c(412,25):
+      占位符和其参数预计 16 可变参数，但提供的却是 15 参数
+      C:\Users\jlu\Desktop\Project4\Init.c(412,25):
+      缺失的可变参数 16 为格式字符串“%[^\n]”所需
+      C:\Users\jlu\Desktop\Project4\Init.c(412,25):
+      此参数用作缓冲区大小
+  
+  Project4.vcxproj -> C:\Users\jlu\Desktop\x64\Debug\Project4.exe
